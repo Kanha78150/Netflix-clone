@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Segoe UI', Helvetica Neue, sans-serif;
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 2%;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar .btn {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: #db0001;
+    padding: 7px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.language {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.language .fa-globe {
+    margin-right: 10px;
+}
+
+.language img {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    margin-top: 180px;
+}
+
+
+.heading h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.heading h5 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 19px 10px;
+}
+
+.heading h4 {
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.email-req {
+    margin-left: 21%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.email-req input {
+    width: 50%;
+    height: 50px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: text;
+    color: white;
+}
+
+.email-req input:hover {
+    outline: 1px solid white;
+}
+
+.email-req input[type="email"]::-webkit-input-placeholder {
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+    visibility: visible;
+    transform: translateY(0);
+    color: #fff;
+}
+
+.email-req button {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    background-color: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 9px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* -------------------------------------------- Second page ---------------------------- */
+
+#Contente {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    border-top: 6px solid #333;
+}
+
+.left h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.left p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* -------------------------------------------------- Third page -------------------------------------- */
+
+#ThirdPage {
+    position: relative;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 8px;
+    border-top: 6px solid #333;
+}
+
+.rightside h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.rightside p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.leftside img {
+    width: 100% !important;
+    height: 100% ! important;
+    display: block;
+    margin: auto;
+}
+
+/* ---------------------------  Fourth page -------------------------------- */
+
+#FourthPage {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    border-top: 6px solid #333;
+}
+
+/* ---------------------------------------  Fifth page ------------------------------------ */
+
+#FifthPage {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    border-top: 6px solid #333;
+}
+
+.PageR p {
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.PageR h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------FAQ section--------------------------------------------- */
+
+#FAQ {
+    background: black;
+    border-top: 6px solid #333;
+}
+
+.faq {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.Questions {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1186px;
+}
+
+.Questions li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.Questions li label:hover {
+    cursor: pointer;
+    background-color: #777;
+}
+
+.Questions li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: "+";
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.Questions .Answer {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.Questions .Answer p {
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.Questions input[type="checkbox"]:checked~div.Answer {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.Questions input[type="checkbox"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.faq h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+/* ------------------------------------- Footer --------------------------------------------- */
+#Footer {
+    padding: 50px 2% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+footer h2 {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
+
+footer h2 span {
+    text-decoration: underline;
+}
+
+footer .language {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+
+footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ---------------------------------------------------------------- It's time to reponsive ---------------------------------------------- */
+
+/* Responsive */
+/* Styles for screens up to 600px wide (e.g., smartphones) */
+@media (max-width: 600px) {
+
+    .header {
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .navbar button {
+        padding: 5px 10px;
+    }
+
+    nav .language {
+        padding: 4px 8px;
+    }
+
+    .maincontent {
+        position: unset;
+        transform: none;
+        margin-top: 55px;
+    }
+
+    .maincontent h1 {
+        font-size: 31px;
+    }
+
+    .maincontent h5 {
+        font-size: 19px;
+    }
+
+    .maincontent h4 {
+        font-size: 18px;
+        padding: 0 57px;
+        font-weight: 400;
+    }
+
+    .email-req {
+        display: block;
+        font-size: 12px;
+        padding: 10px 15px;
+        padding: 0px 15px;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    .email-req input {
+        padding: 11px;
+        margin-left: 22px;
+        width: 83%;
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .email-req button {
+        font-size: 21px;
+        font-weight: 500;
+        margin: 10px 102px;
+        padding: 13px;
+    }
+
+    #Contente {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        flex-wrap: wrap;
+        border-top: 6px solid #333;
+        padding: 10px 40px;
+    }
+
+    .left h1 {
+        color: rgb(255, 255, 255);
+        font-size: 39px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .left p {
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .right img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+    #ThirdPage {
+        position: relative;
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        height: 100vh;
+        width: 100%;
+        padding: 8px 10px;
+        border-top: 6px solid #333;
+    }
+
+    .rightside h2 {
+        color: rgb(255, 255, 255);
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .rightside p {
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .leftside img {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+    #FourthPage {
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100%;
+        padding: 30px;
+        border-top: 6px solid #333;
+    }
+
+    #FifthPage {
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        padding: 16px 20px;
+        border-top: 6px solid #333;
+    }
+
+    .PageR p {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .PageR h2 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .faq {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        color: #fff;
+    }
+
+    .Questions {
+        margin: 28px auto;
+        width: 100%;
+        max-width: 1186px;
+    }
+
+    .Questions li {
+        list-style: none;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .Questions li label:hover {
+        cursor: pointer;
+        background-color: #777;
+    }
+
+    .Questions li label {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        background-color: #303030;
+        margin-bottom: 2px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .faq h4 {
+        text-align: center;
+        font-size: 19px;
+        padding: 0 59px;
+        font-weight: 400
+    }
+
+    #Footer {
+        padding: 50px 2% 10px;
+        border-top: 6px solid #333;
+        color: #777;
+        background-color: black;
+    }
+
+    .row {
+        display: flex;
+
+    }
+
+    footer .col {
+        flex-basis: 25%;
+        flex-grow: 1;
+        margin-bottom: 20px;
+
+    }
+}
