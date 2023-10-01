@@ -153,109 +153,54 @@
 
 /* -------------------------------------------- Second page ---------------------------- */
 
-#Contente {
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding: 30px;
+.img-text{
+    background-color: black;
+    padding: 10px 2%;
     border-top: 6px solid #333;
+    width: 100%;
+    height: 100vh;
 }
 
-.left h1 {
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 14px 0;
+
+}
+
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.text h2{
+    color: white;
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 10px;
+    /* margin-top: 80px; */
 }
 
-.left p {
+.text p{
     color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 400;
 }
 
-.right img {
-    width: 100%;
-    height: 100%;
+.img img{
+    width: 90%;
     display: block;
     margin: auto;
 }
 
-/* -------------------------------------------------- Third page -------------------------------------- */
-
-#ThirdPage {
-    position: relative;
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding: 8px;
-    border-top: 6px solid #333;
-}
-
-.rightside h2 {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-
-.rightside p {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.leftside img {
-    width: 100% !important;
-    height: 100% ! important;
-    display: block;
-    margin: auto;
-}
-
-/* ---------------------------  Fourth page -------------------------------- */
-
-#FourthPage {
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding: 30px;
-    border-top: 6px solid #333;
-}
-
-/* ---------------------------------------  Fifth page ------------------------------------ */
-
-#FifthPage {
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding: 30px;
-    border-top: 6px solid #333;
-}
-
-.PageR p {
-    color: rgb(255, 255, 255);
-    font-size: 20px !important;
-    font-weight: 600 !important;
-}
-
-.PageR h2 {
-    color: rgb(255, 255, 255);
-    font-size: 2.7rem;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
 
 /* ---------------------------------------------------FAQ section--------------------------------------------- */
 
@@ -463,107 +408,56 @@ footer p {
         padding: 13px;
     }
 
-    #Contente {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        flex-wrap: wrap;
+    .img-text{
+        background-color: black;
+        padding: 10px 2%;
         border-top: 6px solid #333;
-        padding: 10px 40px;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 14px 0;    
     }
 
-    .left h1 {
+    .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    
+    .text{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .img{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .text h2{
+        color: white;
         color: rgb(255, 255, 255);
-        font-size: 39px;
+        font-size: 2em;
         font-weight: 800;
         margin-bottom: 10px;
         text-align: center;
     }
-
-    .left p {
+    
+    .text p{
         color: rgb(255, 255, 255);
-        font-size: 17px;
-        font-weight: 500;
+        font-size: 19px;
+        font-weight: 400;
         text-align: center;
     }
-
-    .right img {
-        width: 95%;
+    
+    .img img{
+        width: 90%;
         display: block;
         margin: auto;
-    }
-
-    #ThirdPage {
-        position: relative;
-        background: black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap-reverse;
-        height: 100vh;
-        width: 100%;
-        padding: 8px 10px;
-        border-top: 6px solid #333;
-    }
-
-    .rightside h2 {
-        color: rgb(255, 255, 255);
-        font-size: 27px;
-        font-weight: 800;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    .rightside p {
-        color: rgb(255, 255, 255);
-        font-size: 17px;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    .leftside img {
-        width: 95%;
-        display: block;
-        margin: auto;
-    }
-
-    #FourthPage {
-        background: black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        height: 100vh;
-        width: 100%;
-        padding: 30px;
-        border-top: 6px solid #333;
-    }
-
-    #FifthPage {
-        background: black;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap-reverse;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        padding: 16px 20px;
-        border-top: 6px solid #333;
-    }
-
-    .PageR p {
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .PageR h2 {
-        color: rgb(255, 255, 255);
-        font-size: 32px;
-        font-weight: 600;
-        margin-bottom: 10px;
     }
 
     .faq {
